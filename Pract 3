@@ -1,1 +1,82 @@
 
+
+## **1. Introduction**  
+- **Project:** **Blood Bank Management System**  
+- **Objective:**  
+  - To develop and deploy a **simple and efficient Blood Bank Management System** that manages **blood donations, storage, and distribution** within a short timeframe.  
+  - The system will help hospitals and patients **track blood availability** in real time.  
+- **Importance of Scheduling:**  
+  - Ensures **timely availability** of blood for emergency cases.  
+  - Helps in **efficient donor management** within a limited workforce.  
+  - Optimizes **resource allocation** for quick system deployment.  
+
+---
+
+## **2. Task Identification**  
+- **WBS (Work Breakdown Structure):**  
+  Due to a **small team (2 members) and a short duration (2 months)**, tasks are divided efficiently:  
+  1. **Week 1:** Requirements Gathering → Basic System Design.  
+  2. **Week 2-3:** Frontend Development (User Interface, Registration Form).  
+  3. **Week 4-5:** Backend Development (Database, Blood Inventory, Donor Management).  
+  4. **Week 6:** Testing & Fixing Bugs.  
+  5. **Week 7:** Deployment & Initial Monitoring.  
+  6. **Week 8:** Performance Optimization & Final Testing.  
+
+- **Task Dependencies:**  
+  - "Testing" can **only begin after** "Backend Development" is completed.  
+  - "Deployment" depends on **successful testing and debugging**.  
+
+---
+
+## **3. Resource Scheduling**  
+- **Resources Needed:**  
+  - **Development Team (2 Members):**  
+    - **Person 1:** Handles **Frontend + Database Setup**.  
+    - **Person 2:** Handles **Backend + System Integration**.  
+  - **Tools & Technologies:**  
+    - **Frontend:** HTML, CSS, JavaScript  
+    - **Backend:** PHP / Python / Node.js  
+    - **Database:** MySQL  
+  - **Testing Resources:**  
+    - Manually check functionality due to limited testers.  
+
+- **Allocation of Resources:**  
+  - Work is divided **evenly** between the two developers.  
+  - **Frontend and Database setup** is given priority in the first month.  
+  - **Backend and Testing** will be completed in the second month.  
+
+---
+
+## **4. Creating the Gantt Chart**  
+- **Tasks:**  
+  - Identify **core tasks** like registration, inventory management, and hospital requests.  
+  - **Limit complex features** to ensure completion within 2 months.  
+- **Timeline (2 Months Breakdown):**  
+  - **Week 1-2:** UI Design + Database Setup.  
+  - **Week 3-4:** Backend Development (APIs, Blood Inventory).  
+  - **Week 5:** System Integration.  
+  - **Week 6:** Testing and Debugging.  
+  - **Week 7-8:** Deployment and Optimization.  
+- **Dependencies:**  
+  - Testing must follow **backend completion**.  
+  - Deployment requires **successful testing**.  
+
+---
+
+## **5. Monitoring**  
+- **Weekly Progress Updates:**  
+  - End of each week: **Review completed tasks and fix any issues**.  
+- **Adjustment if Delays Occur:**  
+  - If UI takes too long → Reduce visual complexity.  
+  - If testing reveals major issues → Extend testing by one week (within project limits).  
+  - If deployment is delayed → Optimize system with essential features first.  
+
+---
+
+## **6. Conclusion**  
+- The **2-month development plan** was structured to balance efficiency with time constraints.  
+- The **limited team size** was managed effectively by prioritizing **core functionalities**.  
+- The Gantt chart helped **keep the project on schedule**, ensuring a functional **Blood Bank Management System** within the deadline.  
+
+---
+
