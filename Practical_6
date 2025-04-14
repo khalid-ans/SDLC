@@ -1,1 +1,128 @@
+To model UML Use Case Diagrams and capture Use Case Scenarios for a Blood Bank Management System by identifying actors, use cases, and their interactions, and to draw the corresponding Use Case diagrams.​
 
+Objective:
+
+Identify and define the primary actors interacting with the Blood Bank Management System.​
+
+Determine and describe the use cases representing the functionalities of the system.​
+
+Develop UML Use Case diagrams illustrating the relationships between actors and use cases.​
+SRM University Sikkim
+
+Theory:
+
+Unified Modeling Language (UML) is a standardized modeling language used to visualize, specify, construct, and document the artifacts of a software system. A Use Case Diagram is a type of behavioral diagram in UML that represents the functional requirements of a system. It depicts the interactions between external actors and the system's use cases, providing a high-level view of system functionality.​
+
+Identifying Actors:
+
+In the context of a Blood Bank Management System, the primary actors include:​
+
+Admin: Manages the overall system, including donor and patient data, blood inventory, and system configurations.​
+SRM University Sikkim
++5
+GitHub
++5
+GitHub
++5
+
+Donor: Individuals who register to donate blood and can manage their donation records.​
+
+
+Patient/Hospital: Entities that request blood for transfusions and can track the status of their requests.​
+
+Identifying Use Cases:
+
+The main use cases for the system are:​
+
+Manage User/Application: Admin can oversee user registrations and application settings.​
+SRM University Sikkim
+
+Donate Blood: Donors can register and schedule blood donations.​
+
+Check Status: Donors and patients can monitor the status of their donations or blood requests.​
+
+Manage Blood Group: Admin can categorize and manage different blood groups in the inventory.​
+SRM University Sikkim
+
+Manage Blood: Admin can update blood stock levels, including adding or removing units.​
+
+Enquiry: Patients or hospitals can inquire about blood availability.​
+
+
+Request Blood: Patients or hospitals can place requests for specific blood types.​
+ResearchGate
+
+Login and Logout: All users can securely access and exit the system.​
+
+Use Case Diagram:
+
+A Use Case Diagram visually represents the interactions between actors and use cases. Below is a conceptual representation:​
+Capstone Guide
+
+plaintext
+Copy
+Edit
+[Admin] ────> (Manage User/Application)
+[Admin] ────> (Manage Blood Group)
+[Admin] ────> (Manage Blood)
+[Admin] ────> (Enquiry)
+[Admin] ────> (Login and Logout)
+[Donor] ────> (Donate Blood)
+[Donor] ────> (Check Status)
+[Donor] ────> (Login and Logout)
+[Patient/Hospital] ────> (Request Blood)
+[Patient/Hospital] ────> (Check Status)
+[Patient/Hospital] ────> (Enquiry)
+[Patient/Hospital] ────> (Login and Logout)
+Note: For a detailed diagram, please refer to the GitHub repository:
+
+Use Case Scenarios:
+
+Donate Blood:
+
+Actor: Donor​
+
+Precondition: Donor is registered and logged into the system.​
+GitHub
+
+Main Flow:
+
+Donor selects the "Donate Blood" option.
+
+System prompts for donation details (e.g., date, time, location).
+
+Donor provides the required information.
+
+System confirms the donation appointment and updates the donor's record.
+
+Postcondition: Donation appointment is scheduled, and inventory is updated upon successful donation.​
+www.slideshare.net
++1
+GitHub
++1
+
+Request Blood:
+
+Actor: Patient/Hospital​
+SRM University Sikkim
++1
+GitHub
++1
+
+Precondition: Patient/Hospital is registered and logged into the system.​
+
+Main Flow:
+
+Patient/Hospital selects the "Request Blood" option.
+
+System prompts for blood type and quantity.
+
+Patient/Hospital submits the request.
+
+System checks availability and confirms the request.
+
+Postcondition: Blood request is logged, and inventory is updated accordingly.​
+
+Conclusion:
+
+Modeling UML Use Case Diagrams for the Blood Bank Management System provides a clear understanding of the system's functionality and interactions. Identifying actors and use cases ensures that all user requirements are captured, facilitating effective system design and implementation. The diagrams serve as valuable tools for communication among stakeholders and guide the development process
