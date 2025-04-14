@@ -1,1 +1,70 @@
+Practical – 08
 
+Designing Test Suites
+Software Testing | Need for Software Testing | Testing Frameworks | Test Cases | Types of Software Testing | Unit Testing | Integration Testing | Write Test Cases
+
+Software Project: Blood Bank Management System
+
+Aim of the Experiment
+To study and understand different techniques of software testing and to design appropriate test cases for the Blood Bank Management System to verify its functionality and locate bugs if any.
+
+Introduction
+Software testing is a critical process in the software development life cycle (SDLC) that ensures the quality and reliability of software applications. For a Blood Bank Management System, which handles sensitive data like donor and recipient information, availability of blood types, and transaction records, testing plays a crucial role to avoid system failure and ensure accuracy.
+
+Objectives
+After completing this experiment, you will be able to:
+
+Learn about different software testing techniques.
+
+Understand the importance of designing test cases.
+
+Design unit test cases for Blood Bank Management System to verify functionality.
+
+Detect and document bugs found during testing.
+
+Theory
+Software Testing
+Software testing is the process of evaluating a software application to detect differences between existing and required conditions (i.e., defects/errors/bugs) and to ensure the software system is defect-free.
+
+Verification and Validation
+Verification: Process of evaluating intermediate products of software development to check if they meet the specified requirements.
+
+Validation: Process of evaluating the final product to ensure it meets the business needs.
+
+Standards for Software Test Documentation
+Test documentation includes test plans, test cases, test scripts, and test reports. It helps maintain clarity and standardization throughout the testing process. Each test case should include: Test Case ID, Description, Input, Expected Output, Actual Output, and Status (Pass/Fail).
+
+Testing Frameworks
+Testing frameworks are sets of guidelines or rules used for creating and designing test cases. Examples include JUnit for Java, NUnit for .NET, and PyTest for Python.
+
+Need for Software Testing
+To detect bugs and errors during early stages.
+
+To ensure the system meets business and user requirements.
+
+To verify software's performance and reliability.
+
+To reduce the cost of failure after deployment.
+
+Test Cases and Test Suite
+Test Case: A set of actions executed to verify a particular feature or functionality of your software application.
+
+Test Suite: A collection of test cases that are intended to be used to test a software program.
+
+Types of Software Testing
+Unit Testing: Testing individual modules or functions of the system.
+Example: Verify that donor registration correctly stores user data in the database.
+
+Integration Testing: Testing the interaction between integrated units/modules.
+Example: Validate the process from donor registration to blood availability update.
+
+System Testing: Testing the entire system as a whole to ensure it meets requirements.
+Example: End-to-end testing of requesting and issuing blood to patients.
+
+Sample Test Cases for Blood Bank Management System
+Test Case ID	Description	Input	Expected Output	Actual Output	Status
+TC001	Add new donor record	Name, Age, Blood Group	Donor added to database	As expected	Pass
+TC002	Check blood availability	Blood Group: A+	Display available units of A+	As expected	Pass
+TC003	Issue blood to recipient	Recipient ID, Blood Group	Blood unit assigned and record updated	As expected	Pass
+TC004	Invalid blood group entry	Blood Group: "XYZ"	Error message: "Invalid Blood Group"	As expected	Pass
+TC005	Integration: Donor registration to stock	Complete donor form	Stock updated with new blood unit	As expected	Pass
