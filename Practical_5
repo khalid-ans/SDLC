@@ -1,1 +1,93 @@
+Practical No–05
+Modeling Data Flow Diagram & Control Flow Diagram
+Draw Data Flow Diagram | Control Flow Diagram
+
+Aim of the Experiment
+To model the flow of data and control in a Blood Bank Management System using Data Flow Diagram (DFD) and Control Flow Diagram (CFD).
+
+Introduction
+In any information system, visual representation of how data moves through the system is essential for analysis and design. DFDs help in understanding the logical flow of data, while CFDs focus on control actions. This experiment focuses on modeling both DFD and CFD for a blood bank system.
+
+Objectives
+To model how data flows across a blood bank system using DFD.
+
+To visualize the control mechanisms and actions using a CFD.
+
+To identify the major entities and processes in the blood bank system.
+
+After completing this experiment you will be able to:
+Identify external entities and functionalities of the blood bank system.
+
+Identify the flow of data across the system.
+
+Represent the system flow using Data Flow Diagrams (DFD).
+
+Model the control actions and logic using Control Flow Diagrams (CFD).
+
+Theory
+Data Flow Diagram (DFD)
+A DFD is a graphical tool that depicts the flow of data within a system. It shows how input is turned into output through a process.
+
+Graphical Notations for Data Flow Diagram
+Symbol	Meaning
+🟦 (Process)	Performs actions on data
+🟧 (Data Store)	Storage or database
+🔲 (External Entity)	Source/destination of data
+➝ (Arrow)	Direction of data flow
+Explanation of Symbols used in DFD
+Process – Represents a function or activity (e.g., “Register Donor”).
+
+Data Store – Where data is stored (e.g., “Donor Records”).
+
+External Entity – Users or systems interacting with the blood bank system (e.g., “Donor”, “Hospital”).
+
+Data Flow – Movement of data between entities, processes, and data stores.
+
+Context Diagram and Leveling DFD
+Context Diagram (Level 0 DFD)
+Shows the entire Blood Bank Management System as a single process with external entities like:
+
+Donor
+
+Hospital
+
+Admin
+
+Level 1 DFD
+Breaks the system into sub-processes such as:
+
+Donor Registration
+
+Blood Donation
+
+Blood Request by Hospital
+
+Inventory Management
+
+Case Study: Blood Bank Management System
+Entities:
+Donor – Registers and donates blood
+
+Receptionist – Manages donor records
+
+Hospital – Requests blood
+
+Admin – Manages overall system
+
+Processes:
+Register Donor
+
+Store Blood Details
+
+Update Inventory
+
+Approve Blood Request
+
+Data Stores:
+Donor Database
+
+Blood Inventory
+
+Hospital Request Log
+
 
