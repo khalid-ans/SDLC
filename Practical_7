@@ -1,1 +1,55 @@
+Modeling Sequence Diagrams for Blood Bank Management System
+A Sequence Diagram is a type of interaction diagram that shows how processes operate with one another and in what order. In a Blood Bank Management System, sequence diagrams can be used to model interactions like donor registration, blood donation, blood request by a hospital, and stock updates.
 
+Purpose
+To visualize the step-by-step interaction between system components (objects), such as donors, receptionists, the database, and the inventory system, during key operations in the blood bank.
+
+Elements in Sequence Diagram
+Element	Description
+Object	Entities involved in the interaction (e.g., Donor, Receptionist, Database).
+Lifeline Bar	A vertical dashed line showing the object's life during the interaction.
+Activation Bar	A thin rectangle showing when an object is active and performing an action.
+Messages	Arrows showing communication between objects. Can be synchronous (solid arrow) or asynchronous (open arrow).
+Use Case: Donor Registration and Blood Donation Process
+Objects Involved
+Donor
+
+Receptionist
+
+Blood Bank System
+
+Database
+
+Inventory Manager
+
+Steps Described
+Donor walks in or accesses the online platform.
+
+Receptionist welcomes donor and initiates registration.
+
+Donor provides personal details and blood group.
+
+Receptionist sends this data to the Blood Bank System.
+
+The System stores the data into the Database.
+
+A confirmation is shown to the Receptionist and Donor.
+
+After donation, Inventory Manager updates blood stock.
+
+The updated stock is saved in the Database.
+
+System sends confirmation back to Receptionist.
+
+Messages Exchanged
+From	To	Message	Description
+Donor	Receptionist	requestRegistration()	Starts donor registration process
+Receptionist	Donor	collectDetails()	Collect donor details
+Receptionist	Blood Bank System	registerDonor(details)	Sends donor data to system
+Blood Bank System	Database	insertDonorData(details)	Inserts donor info into DB
+Database	Blood Bank System	confirmation()	Acknowledges record saved
+Blood Bank System	Receptionist	showConfirmation()	Confirms registration success
+Inventory Manager	Blood Bank System	updateBloodStock(bloodGroup, qty)	Updates blood inventory
+Blood Bank System	Database	updateStock()	Saves updated stock
+Database	Blood Bank System	stockUpdated()	Confirms stock update
+Blood Bank System	Receptionist	notifySuccess()	Notifies completion
